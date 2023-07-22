@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Webpage</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <h1>Delicious Food</h1>
+</header>
+
+<main>
+    <div class="tabs">
+        <button class="tab-button active" id="veg-tab">Veg</button>
+        <button class="tab-button" id="non-veg-tab">Non-Veg</button>
+        <button class="tab-button" id="drinks-tab">Drinks</button>
+    </div>
+
+    <section id="menu-items" class="menu-items"></section>
+
+    <div id="item-details"></div>
+
+    <button id="back-button" style="display: none;">Back</button>
+    <button id="delete-button" style="display: none;">Delete</button>
+
+    <div id="bill" class="bill"></div>
+
+    <button id="add-to-bill-button" class="add-to-bill-button">Add to Bill</button>
+</main>
+
+<script src="scripts.js"></script>
+</body>
+</html>
